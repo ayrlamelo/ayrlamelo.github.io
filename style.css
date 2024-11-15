@@ -1,16 +1,125 @@
 body {
   font-family: sans-serif;
   text-decoration: none;
+  background-color: #1e1e1e;
+  display: flex;
+  margin: 0px 120px;
+  padding: 0;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-/* .menu-nav {
-  flex-direction: row;
-} */
+p {
+  font-family: "Open Sans";
+  color: #fff;
+  font-size: 1rem;
+  margin: 0rem;
+}
 
-li {
+h3 {
+  font-family: "Domine";
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+}
+
+/* barra de navegação */
+
+nav {
+  display: flex;
+  padding: 1rem 0rem;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  margin: 0rem;
+}
+
+.menu-nav {
+  font-family: "Open Sans";
+  display: flex;
+  font-size: 1rem;
+  font-weight: 200;
+  letter-spacing: 1px;
+  margin: 0rem;
+}
+
+.menu-nav li {
   list-style: none;
   padding: 1rem;
-  margin: 0.5rem;
-  color: black;
-  background-color: aliceblue;
+  /* margin: 0.5rem; */
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #bababa;
+}
+
+/* header */
+
+header {
+  display: flex;
+  /* width: fit-content; */
+  /* margin: 0rem 15rem 0rem 0rem; */
+  padding: 5rem 0rem;
+  flex-direction: row;
+  justify-content: left;
+  align-items: stretch;
+  gap: 0.8rem;
+}
+
+.headings {
+  display: flex;
+  width: 30rem;
+  /* margin: 0rem 15rem 0rem 0rem; */
+  /* padding: 5rem 0rem; */
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+  gap: 0.8rem;
+}
+
+h1 {
+  font-family: "Domine";
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  text-align: left;
+  margin: 0rem;
+  line-height: 100%;
+}
+
+.overline {
+  color: #bababa;
+  text-transform: uppercase;
+}
+
+.pheader {
+  text-align: left;
+  margin: 0rem;
+  color: #bababa;
+  line-height: 150%;
+}
+
+.button {
+  background-color: #fff;
+  font-size: 1rem;
+  color: #1e1e1e;
+  padding: 0.8rem 1.2rem;
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background-color: #bababa;
+  color: #1e1e1e;
+}
+
+.selfilustracao {
+  width: 37.5rem;
+  height: 37.5rem;
 }
