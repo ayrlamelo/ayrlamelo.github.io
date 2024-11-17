@@ -9,6 +9,40 @@ body {
   align-items: flex-start;
 }
 
+h1 {
+  font-family: "Domine";
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  text-align: left;
+  margin: 0rem;
+  line-height: 100%;
+}
+
+h2 {
+  font-family: "Domine";
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  text-align: left;
+  margin: 2em 4rem;
+  line-height: 100%;
+}
+
+h3 {
+  font-family: "Open Sans";
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 0rem;
+  line-height: 100%;
+}
+
 p {
   font-family: "Open Sans";
   color: #fff;
@@ -16,9 +50,10 @@ p {
   margin: 0rem;
 }
 
-h3 {
+.homelink {
   font-family: "Domine";
   color: #fff;
+  font-size: 1.5rem;
   font-weight: 400;
   letter-spacing: 1.2px;
 }
@@ -80,17 +115,6 @@ header {
   gap: 0.8rem;
 }
 
-h1 {
-  font-family: "Domine";
-  font-size: 3rem;
-  color: #fff;
-  font-weight: 400;
-  letter-spacing: 1.2px;
-  text-align: left;
-  margin: 0rem;
-  line-height: 100%;
-}
-
 .overline {
   color: #bababa;
   text-transform: uppercase;
@@ -102,6 +126,8 @@ h1 {
   color: #bababa;
   line-height: 150%;
 }
+
+/* buttons */
 
 .button {
   background-color: #fff;
@@ -136,4 +162,92 @@ footer {
 
 footer p {
   color: #bababa;
+}
+
+/* e-mail */
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border: 1px solid #bababa;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+}
+
+label {
+  font-family: "Open Sans";
+  color: #fff;
+  font-size: 1rem;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea,
+button {
+  /* width: 100%; */
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #fff;
+  color: #1e1e1e;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* projects (my work) */
+.groupprojects {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: flex-start;
+  gap: 2rem;
+  max-width: 100%;
+  margin-left: 4rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+  padding: 1rem;
+  gap: 0.8rem;
+  border: #bababa 1px solid;
+}
+
+/* button-card */
+
+.button-card {
+  background-color: #fff;
+  font-size: 1rem;
+  color: #1e1e1e;
+  padding: 0.8rem 1.2rem;
+  margin: 0rem;
+  text-transform: uppercase;
+}
+
+.button-card:hover {
+  background-color: #bababa;
+  color: #1e1e1e;
+}
+
+.imgproject {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  width: 100%;
 }
