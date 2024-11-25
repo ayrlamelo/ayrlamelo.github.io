@@ -38,7 +38,7 @@ main {
  */
 
 h1 {
-  font-size: 2em;
+  /* font-size: 2em; */
   margin: 0.67em 0;
 }
 
@@ -383,9 +383,9 @@ nav {
   text-decoration-line: underline;
 }
 
-/* ================================== Header ================================== */
+/* ================================== HeaderHome ================================== */
 
-header {
+.HeaderHome {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
@@ -422,8 +422,61 @@ header {
   margin: 0rem;
 }
 
+.buttonPrimary {
+  padding: 1rem 0.5rem;
+}
+
 .buttonPrimary:hover {
   text-decoration-line: underline;
+}
+
+/* ================================== HeaderAbout ================================== */
+
+.headerAbout {
+  display: flex;
+  /* align-items: flex-start; */
+  flex-direction: column;
+  margin-top: 8rem;
+  gap: 0.5rem;
+  max-width: 100%;
+  margin-bottom: 5rem;
+}
+
+.headerAboutIntro {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  max-width: 50%;
+  gap: 2rem;
+}
+
+h1 {
+  color: #fff;
+  font-family: "Domine";
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  margin: 0rem;
+}
+
+h2 {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 150%;
+  margin: 0rem;
+}
+
+/* ================================== SkillsCards ================================== */
+
+.skillsGroup {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 2rem;
 }
 
 /* ================================== Footer ================================== */
@@ -434,7 +487,7 @@ footer {
   flex-direction: row;
   align-items: center;
   align-self: stretch;
-  padding: 3rem 1rem;
+  padding: 4rem 1rem;
   color: #bababa;
   font-size: 0.8rem;
 }
