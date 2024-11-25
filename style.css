@@ -355,7 +355,7 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* align-items: center; */
+  align-items: center;
   align-self: stretch;
   margin: 0px;
 }
@@ -373,10 +373,10 @@ nav {
   flex-wrap: nowrap;
   flex-direction: row;
   gap: 2rem;
+  font-family: "Open Sans";
   list-style: none;
   padding: 2rem 1rem;
   margin: 0px;
-  font-family: "Open Sans";
 }
 
 .menuItem:hover {
